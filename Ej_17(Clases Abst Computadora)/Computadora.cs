@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ej_17_Clases_Abst_Computadora_
 {
-    public abtract class Computadora
+    public abstract class Computadora
     {
         private string microprocesador;
         private float velocidad;
