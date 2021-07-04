@@ -16,10 +16,17 @@ namespace Ej_18__Interfaz_Colegio_
         public int Num_legajo { get => num_legajo; set => num_legajo = value; }
         public string Egreso_fecha { get => egreso_fecha; set => egreso_fecha = value; }
         public string Ingreso_escuela { get => ingreso_escuela; set => ingreso_escuela = value; }
+       
 
         public Alumno()
         {
 
+            IngresoDatosAlumnos();
+
+        }
+
+        public void IngresoDatosAlumnos()
+        {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.Write("\n Ingrese el número de Legajo del Alumno: ");
             num_legajo = int.Parse(Console.ReadLine());
@@ -38,13 +45,12 @@ namespace Ej_18__Interfaz_Colegio_
                     Console.WriteLine(" \n Ingrese DD / MM / AAAA. Egreso del alumno de la institución: ");
                     egreso_fecha = Console.ReadLine();
 
-                   
+
                 }
 
             }
-
         }
-
+       
         public override string ToString()
         {
             DateTime nacimiento = DateTime.Parse(Fecha_naciemiento); // Nacimiento
@@ -54,13 +60,13 @@ namespace Ej_18__Interfaz_Colegio_
             if (egresado)
             {
                 DateTime fecha_egreso = DateTime.Parse(egreso_fecha); // me convierte el string en fecha 
-                Console.WriteLine($"\n Alumno egresado: {fecha_egreso}");
+                Console.WriteLine($"\n Alumno egresado: {fecha_egreso.ToString("dddd, dd \\de MMMM \\de yyyy")}");
 
             }
-            return ($" {base.ToString()} \n Edad: {CalcularEdad(nacimiento, fechaActual)} \n Número de Legajo: {Num_legajo} \n Ingreso a la Institución: {ingreso_escuela} \n Tiempo en la escuela: { CalcularIngresoEscuela(ingreso_colegio)} \n {LugarRecreo()}");
+            return ($" {base.ToString()} \n Edad: {CalcularEdad(nacimiento, fechaActual)} \n Número de Legajo: {Num_legajo} \n Ingreso a la Institución: {ingreso_escuela} \n Tiempo en la escuela: { AñosEscuela(ingreso_colegio)} \n {LugarRecreo()}");
         }
 
-        public string CalcularIngresoEscuela(DateTime FechaIngreso)
+        public string AñosEscuela(DateTime FechaIngreso)
         {
 
             DateTime FechaActual = DateTime.Today;
@@ -77,14 +83,16 @@ namespace Ej_18__Interfaz_Colegio_
             else
             {
                 tiempo_escuela = FechaActual.Year - FechaIngreso.Year;
+                
 
-                if (tiempo_escuela == 0)
+                if (tiempo_escuela == 0 || tiempo_escuela == 1)
                 {
-                    tiempo_escuela = FechaActual.Month - FechaIngreso.Month;
+                    tiempo_escuela = (-( FechaActual.Month - FechaIngreso.Month));
 
                     return ($"{tiempo_escuela} meses");
 
                 }
+             
                 else
                 {
 
@@ -138,6 +146,7 @@ namespace Ej_18__Interfaz_Colegio_
                 return ($"{Age}");
             }
         }
+        
         ////// Arriba metodos de la interfaz. Abajo Interfaz de defecto
 
         public int CompareTo(object objalumno)
@@ -148,7 +157,7 @@ namespace Ej_18__Interfaz_Colegio_
         public string LugarRecreo()
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            return ("RECREO EN PATIO DE COLEGIO \n FIN DE CARGA DE DOCENTE \n");
+            return ("RECREO EN PATIO DE COLEGIO \n FIN DE CARGA DE ALUMNO \n");
 
         }
     }

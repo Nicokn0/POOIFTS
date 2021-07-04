@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Ej_18__Interfaz_Colegio_
 {
-   public abstract class Persona
+    class Persona
     {
         private string nombre;
         private string apellido;
@@ -22,19 +22,9 @@ namespace Ej_18__Interfaz_Colegio_
 
         public Persona()
         {
-            
 
-            Console.Write("\n Ingrese Nombre: ");
-            nombre = Console.ReadLine();
 
-            Console.Write("\n Ingrese Apellido: ");
-            apellido = Console.ReadLine();
-
-            Console.Write("\n Ingrese DNI: ");
-            Dni =int.Parse( Console.ReadLine());
-
-            Console.Write("\n Ingrese Fecha de nacimiento DD / MM / yyyy : ");
-            fecha_naciemiento = Console.ReadLine();
+            DatosPersona();
 
 
         }
@@ -45,7 +35,20 @@ namespace Ej_18__Interfaz_Colegio_
         }
 
       
+        public void  DatosPersona ()
+        {
+            Console.Write("\n Ingrese Nombre: ");
+            nombre = Console.ReadLine();
 
+            Console.Write("\n Ingrese Apellido: ");
+            apellido = Console.ReadLine();
+
+            Console.Write("\n Ingrese DNI: ");
+            Dni = int.Parse(Console.ReadLine());
+
+            Console.Write("\n Ingrese Fecha de nacimiento DD / MM / yyyy : ");
+            fecha_naciemiento = Console.ReadLine();
+        }
 
     }
 }

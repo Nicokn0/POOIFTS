@@ -8,6 +8,6 @@ namespace Ej_18__Interfaz_Colegio_
     {
         string CalcularEdad(DateTime Fechanacimiento, DateTime FechaActual);
        
-        string CalcularIngresoEscuela(DateTime FechaIngreso);
+        string AñosEscuela(DateTime FechaIngreso);
     }
 }

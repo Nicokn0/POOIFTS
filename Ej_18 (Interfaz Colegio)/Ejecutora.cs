@@ -148,7 +148,7 @@ namespace Ej_18__Interfaz_Colegio_
         static void OrdenamientoEdad(List<Alumno> objAlumno, List<Docente> objDocente)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("\nVer Lista \n 1. Docentes \n 2. Lista Alumnos \n 3. Regresar Menu");
+            Console.WriteLine("\n Ver Lista \n\n 1. Docentes \n 2. Lista Alumnos \n 3. Regresar Menu");
             int opc = int.Parse(Console.ReadLine());
 
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -156,8 +156,9 @@ namespace Ej_18__Interfaz_Colegio_
             {
                  
                 case 1:
-                   
-                    Console.WriteLine("\n Lista de DOCENTES INGRESADOS \n ");
+
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                    Console.WriteLine("\n Lista de DOCENTES INGRESADOS.  \n ");
 
 
                     foreach (Docente listdocente in objDocente)
@@ -182,6 +183,7 @@ namespace Ej_18__Interfaz_Colegio_
 
                 case 2:
 
+                    Console.ForegroundColor = ConsoleColor.DarkMagenta;
                     Console.WriteLine("Lista de ALUMNOS ingresados al sistema \n");
 
                     foreach (Alumno listalumno in objAlumno)
@@ -218,6 +220,9 @@ namespace Ej_18__Interfaz_Colegio_
 
         static void OrdenamientoFecha (List<Alumno> objAlumno)
         {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("\n Lista de ALUMNOS INGRESADOS \n ");
+
             Console.ForegroundColor = ConsoleColor.Red;
             foreach (Alumno listalumno in objAlumno)
             {
@@ -231,7 +236,7 @@ namespace Ej_18__Interfaz_Colegio_
             });
 
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("\n Lista Ordenada por fecha de ingreso a la escuela \n");
+            Console.WriteLine("\n Lista Ordenada por fecha de ingreso a la escuela. Desde el mas actual al mas viejo \n");
 
           
 
@@ -244,6 +249,7 @@ namespace Ej_18__Interfaz_Colegio_
 
         static void Ordenamientolegajo(List<Docente> objDocente)
         {
+
             Console.WriteLine("\n Lista de DOCENTES INGRESADOS \n ");
 
 
@@ -252,10 +258,12 @@ namespace Ej_18__Interfaz_Colegio_
                 Console.WriteLine($" {listdocente.ToString()} \n");
             }
 
-            Console.WriteLine("Lista Ordenada por NÚMERO DE LEGAJO ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("Lista Ordenada por NÚMERO DE LEGAJO. ");
 
 
-           objDocente = objDocente.OrderBy(p => p.Num_legajo).ToList();
+            objDocente = objDocente.OrderBy(p => p.Num_legajo).ToList();
+           
 
             foreach (Docente listdocente in objDocente)
             {

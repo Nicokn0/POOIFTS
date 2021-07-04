@@ -55,8 +55,6 @@ namespace Ej_08__Colecciones_Curso_
         public void Ingreso_Notas()
         {
 
-
-
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Ingrese el nombre del alumno");
             nombre = Console.ReadLine();
