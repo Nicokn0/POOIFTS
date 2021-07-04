@@ -10,7 +10,7 @@ namespace Ej_11_Colecciones_Cuadrado_
 
         public double Lado { get => lado; set => lado = value; }
 
-        public Cuadrado()
+        public Cuadrado() // contructor cuadrado 
         {
             Inicializar();
         }
@@ -32,7 +32,7 @@ namespace Ej_11_Colecciones_Cuadrado_
 
         }
 
-        static double ImprimirPerimetro(double lado)
+        public double ImprimirPerimetro(double lado)
         {
             double perimetro = 0;
             perimetro = lado * 4;
@@ -41,7 +41,7 @@ namespace Ej_11_Colecciones_Cuadrado_
 
 
         // Funcin superficie 
-        static double Super(double lado1)
+        public double Super(double lado1)
         {
             double resu = lado1 * lado1;
 

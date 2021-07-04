@@ -3,39 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_01 (Triangulo)", "Ej_01\Ej_01 (Triangulo).csproj", "{C9060F4C-EBFB-4E1E-BC96-F99E90A632F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_01 (Triangulo)", "Ej_01\Ej_01 (Triangulo).csproj", "{C9060F4C-EBFB-4E1E-BC96-F99E90A632F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_02 (Vendedor)", "Ej_02 (Vendedor)\Ej_02 (Vendedor).csproj", "{FE72DAE7-CA18-40FC-B98E-E51FD3F24BD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_02 (Vendedor)", "Ej_02 (Vendedor)\Ej_02 (Vendedor).csproj", "{FE72DAE7-CA18-40FC-B98E-E51FD3F24BD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_03 (Alumno)", "Ej_03 (Alumno)\Ej_03 (Alumno).csproj", "{366DA463-1598-4C12-B996-5A86F7525BDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_03 (Alumno)", "Ej_03 (Alumno)\Ej_03 (Alumno).csproj", "{366DA463-1598-4C12-B996-5A86F7525BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_04 (Cuadrado)", "Ej_04 (Cuadrado)\Ej_04 (Cuadrado).csproj", "{84F82A18-E5DC-4584-9AA4-90806EAAB03A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_04 (Cuadrado)", "Ej_04 (Cuadrado)\Ej_04 (Cuadrado).csproj", "{84F82A18-E5DC-4584-9AA4-90806EAAB03A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_05(Producto)", "Ej_05(Producto)\Ej_05(Producto).csproj", "{33A924C5-0349-4604-96C9-712755491C04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_05(Producto)", "Ej_05(Producto)\Ej_05(Producto).csproj", "{33A924C5-0349-4604-96C9-712755491C04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_06 (Rectangulo)", "Ej_06 (Rectangulo)\Ej_06 (Rectangulo).csproj", "{616AA0FA-A680-452A-BCAF-EBE1C313309D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_06 (Rectangulo)", "Ej_06 (Rectangulo)\Ej_06 (Rectangulo).csproj", "{616AA0FA-A680-452A-BCAF-EBE1C313309D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_07 (Colecciones Triangulo)", "Ej_07 (Colecciones Triangulo)\Ej_07 (Colecciones Triangulo).csproj", "{C54AABCE-2E25-45CB-82BC-9A65BB12C47C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_07 (Colecciones Triangulo)", "Ej_07 (Colecciones Triangulo)\Ej_07 (Colecciones Triangulo).csproj", "{C54AABCE-2E25-45CB-82BC-9A65BB12C47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_08 (Colecciones Curso)", "Ej_08 (Colecciones Curso)\Ej_08 (Colecciones Curso).csproj", "{E35D269B-D423-4CF6-B55D-CBCF91C30008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_08 (Colecciones Curso)", "Ej_08 (Colecciones Curso)\Ej_08 (Colecciones Curso).csproj", "{E35D269B-D423-4CF6-B55D-CBCF91C30008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_09 (Colecciones Vendedor)", "Ej_09 (Colecciones Vendedor)\Ej_09 (Colecciones Vendedor).csproj", "{BA86E9B3-E884-474B-AFB9-567FA3B9C7C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_09 (Colecciones Vendedor)", "Ej_09 (Colecciones Vendedor)\Ej_09 (Colecciones Vendedor).csproj", "{BA86E9B3-E884-474B-AFB9-567FA3B9C7C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_10 (Colecciones Biblioteca)", "Ej_10 (Colecciones Biblioteca)\Ej_10 (Colecciones Biblioteca).csproj", "{3E7E7CE6-3B22-4011-A7EE-E467C951EF39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_10 (Colecciones Biblioteca)", "Ej_10 (Colecciones Biblioteca)\Ej_10 (Colecciones Biblioteca).csproj", "{3E7E7CE6-3B22-4011-A7EE-E467C951EF39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_11(Colecciones Cuadrado)", "Ej_11(Colecciones Cuadrado)\Ej_11(Colecciones Cuadrado).csproj", "{0309F361-F525-4D0C-916E-EDCD536ED7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_11(Colecciones Cuadrado)", "Ej_11(Colecciones Cuadrado)\Ej_11(Colecciones Cuadrado).csproj", "{0309F361-F525-4D0C-916E-EDCD536ED7DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_12 (Coleccciones Rectangulo)", "Ej_12 (Coleccciones Rectangulo)\Ej_12 (Coleccciones Rectangulo).csproj", "{CB87EAAE-F00E-4263-B7A4-62AC07E4CB09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_12 (Coleccciones Rectangulo)", "Ej_12 (Coleccciones Rectangulo)\Ej_12 (Coleccciones Rectangulo).csproj", "{CB87EAAE-F00E-4263-B7A4-62AC07E4CB09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_13 (Colecciones Productos)", "Ej_13 (Colecciones Productos)\Ej_13 (Colecciones Productos).csproj", "{8B3ECB00-D0FC-41DA-8177-2CDC938D8E72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_13 (Colecciones Productos)", "Ej_13 (Colecciones Productos)\Ej_13 (Colecciones Productos).csproj", "{8B3ECB00-D0FC-41DA-8177-2CDC938D8E72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_14 (Herencia Figura Geometrica)", "Ej_14 (Herencia Figura Geometrica)\Ej_14 (Herencia Figura Geometrica).csproj", "{FD6E8E29-0714-47CF-B1CE-5A6CF6AB8D47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_14 (Herencia Figura Geometrica)", "Ej_14 (Herencia Figura Geometrica)\Ej_14 (Herencia Figura Geometrica).csproj", "{FD6E8E29-0714-47CF-B1CE-5A6CF6AB8D47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_15 (Herencia Computadora)", "Ej_15 (Herencia Computadora)\Ej_15 (Herencia Computadora).csproj", "{E53C2B94-CB05-4263-832A-CAEF685B22FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_15 (Herencia Computadora)", "Ej_15 (Herencia Computadora)\Ej_15 (Herencia Computadora).csproj", "{E53C2B94-CB05-4263-832A-CAEF685B22FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_16(CAbs Figura Geometrica)", "Ej_16(CAbs Figura Geometrica)\Ej_16(CAbs Figura Geometrica).csproj", "{1D104EBE-257D-4C4F-9F45-0A936FB904C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_16(CAbs Figura Geometrica)", "Ej_16(CAbs Figura Geometrica)\Ej_16(CAbs Figura Geometrica).csproj", "{1D104EBE-257D-4C4F-9F45-0A936FB904C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_17(Clases Abst Computadora)", "Ej_17(Clases Abst Computadora)\Ej_17(Clases Abst Computadora).csproj", "{78F790DB-F3DD-426F-9850-640DFFFB7A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej_17(Clases Abst Computadora)", "Ej_17(Clases Abst Computadora)\Ej_17(Clases Abst Computadora).csproj", "{78F790DB-F3DD-426F-9850-640DFFFB7A77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej_18 (Interfaz Colegio)", "Ej_18 (Interfaz Colegio)\Ej_18 (Interfaz Colegio).csproj", "{1425CC95-E6E1-491A-AFAA-ADCB410A01F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{78F790DB-F3DD-426F-9850-640DFFFB7A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78F790DB-F3DD-426F-9850-640DFFFB7A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78F790DB-F3DD-426F-9850-640DFFFB7A77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1425CC95-E6E1-491A-AFAA-ADCB410A01F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1425CC95-E6E1-491A-AFAA-ADCB410A01F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1425CC95-E6E1-491A-AFAA-ADCB410A01F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1425CC95-E6E1-491A-AFAA-ADCB410A01F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

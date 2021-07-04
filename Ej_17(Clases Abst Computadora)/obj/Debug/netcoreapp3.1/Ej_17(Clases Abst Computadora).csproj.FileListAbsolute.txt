@@ -1,0 +1,13 @@
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\bin\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).exe
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\bin\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).deps.json
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\bin\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).runtimeconfig.json
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\bin\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).runtimeconfig.dev.json
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\bin\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).dll
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\bin\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).pdb
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\obj\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).csprojAssemblyReference.cache
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\obj\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).AssemblyInfoInputs.cache
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\obj\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).AssemblyInfo.cs
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\obj\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).csproj.CoreCompileInputs.cache
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\obj\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).dll
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\obj\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).pdb
+C:\Users\Nico\source\repos\Programación Aplicada. Cano Nicolás IFTS 11\Ej_17(Clases Abst Computadora)\obj\Debug\netcoreapp3.1\Ej_17(Clases Abst Computadora).genruntimeconfig.cache

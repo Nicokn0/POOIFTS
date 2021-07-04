@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ej_11(Colecciones Cuadrado)/1.0.0": {
+        "runtime": {
+          "Ej_11(Colecciones Cuadrado).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ej_11(Colecciones Cuadrado)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -9,7 +9,7 @@ namespace Ej_17_Clases_Abst_Computadora_
         private string microprocesador;
         private float velocidad;
         private int tamañoRam;
-        private int cont_compu;
+        
 
 
 
@@ -45,6 +45,10 @@ namespace Ej_17_Clases_Abst_Computadora_
 
         public abstract int Cont_Dispositivo();
 
+
+
+
     }
 }
-}
+
+

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ej_17(Clases Abst Computadora)/1.0.0": {
+        "runtime": {
+          "Ej_17(Clases Abst Computadora).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ej_17(Clases Abst Computadora)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

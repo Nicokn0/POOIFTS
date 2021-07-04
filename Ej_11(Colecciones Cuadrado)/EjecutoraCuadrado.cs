@@ -7,16 +7,16 @@ namespace Ej_11_Colecciones_Cuadrado_
         static void Main(string[] args)
         {
 
-            List<Cuadrado> objCuadrado = new List<Cuadrado>();
+            List<Cuadrado> objCuadrado = new List<Cuadrado>(); //Creo una lista objCuadrado
             int opcion = 0;
 
             do
             {
-                Menu();
+                Menu(); // 1 Metodo MENU 
                 Console.WriteLine("\n");
                 opcion = int.Parse(Console.ReadLine());
 
-                Menuopciones(opcion, objCuadrado);
+                Opciones(opcion, objCuadrado); //Opciones a desarrollar Ej agregar, eliminar y le paso la lista
 
 
             }
@@ -32,7 +32,7 @@ namespace Ej_11_Colecciones_Cuadrado_
 
         }
 
-        public static void Menuopciones(int opcion, List<Cuadrado> objCuadrado)
+        public static void Opciones(int opcion, List<Cuadrado> objCuadrado)
         {
 
 
@@ -40,7 +40,7 @@ namespace Ej_11_Colecciones_Cuadrado_
             {
                 case 1:
 
-                    AgregarCuadrado(objCuadrado);
+                    AgregarCuadrado(objCuadrado); //Llamo al Metodo Agregar CUadrado 
 
                     break;
 
@@ -76,16 +76,16 @@ namespace Ej_11_Colecciones_Cuadrado_
         }
 
 
-        static void AgregarCuadrado(List<Cuadrado> objcuadrado)
+        static void AgregarCuadrado(List<Cuadrado> objcuadrado) // Aca dentro vas hacer una lista Tipo de dato una Lista
         {
             char sigue = 'S';
 
             while (sigue.ToString().ToUpper().Equals("S"))
             {
-                Console.WriteLine("\t Ingrese el lado del CUADRADO \n");
-                objcuadrado.Add(new Cuadrado());
+                
+                objcuadrado.Add(new Cuadrado()); //Agregame a la variable objcuadrado lo que tengas en la clase CUADRADO.
 
-                Console.WriteLine("Ingrese S para continuar con la carga de los RECTANGULOS. Cualquier otra tecla para finalizar");
+                Console.WriteLine("Ingrese S para continuar con la carga de los Cuadrados. Cualquier otra tecla para finalizar");
                 sigue = char.Parse(Console.ReadLine());
             }
         }
@@ -128,7 +128,7 @@ namespace Ej_11_Colecciones_Cuadrado_
 
         }
 
-        static void ListaCuadrado(List<Cuadrado> objcuadrado)
+        static void ListaCuadrado(List<Cuadrado> objcuadrado) // List tiene que estar si o si!! Sino no te crea la lista 
         {
             if (objcuadrado.Count > 0)
             {
@@ -137,14 +137,18 @@ namespace Ej_11_Colecciones_Cuadrado_
 
                 int i = 1;
 
-                foreach (Cuadrado auxrect in objcuadrado)
+                foreach (Cuadrado auxcuadrado in objcuadrado) // RECORRER LISTA. 1 LLAMO A LA CLASE, LE PONGO NOMBRE A LA VARIABLE AUXRECT y le digo que recorrala lista
                 {
-                    Console.WriteLine($" \n CUADRADO N° : {i++} \n {auxrect.ToString()}");
+                    Console.WriteLine($" \n CUADRADO N° : {i++} \n {auxcuadrado.ToString()}");
 
 
 
                 }
 
+            }
+            else
+            {
+                Console.WriteLine("NO HAY CUADRADOS EN LA LISTA");
             }
         }
     }
